@@ -15,13 +15,6 @@ PlayerSection:NewButton("Disable Slows", "Disables purple shake spill slows on t
     end
 end)
 
-PlayerSection:NewSlider("Forced Walkspeed", "Forces the players walkspeed", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    local Player = game.Players.LocalPlayer.Character
-    if Player and Player:FindFirstChild("Humanoid") then
-        Player.Humanoid.WalkSpeed = s
-    end
-end)
-
 local ItemsTab = Window:NewTab("Items")
 local ItemsSection = ItemsTab:NewSection("Item Giver")
 
