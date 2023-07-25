@@ -1,6 +1,6 @@
 -- Grimace [Horror] GUI - game.PlaceId
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Grimace [Horror] - 13896062842", Theme)
+local Window = Library.CreateLib("Grimace [Horror] - 13896062842", "Sentinel")
 
 local PlayerTab = Window:NewTab("Player")
 local PlayerSection = PlayerTab:NewSection("Player")
